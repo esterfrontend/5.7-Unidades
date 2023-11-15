@@ -1,0 +1,174 @@
+* {
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 60px 0;
+}
+
+/* Dimensiones: Ejercicio 1 */
+
+#dimEjercicio1 {
+    width: 500px;
+    height: 300px;
+    background-color: pink;
+}
+
+
+/* Dimensiones: Ejercicio 2 */
+
+img {
+    width: 30vw;
+}
+
+
+/* Dimensiones: Ejercicio 3 */
+
+header {
+    height: 80px;
+    background-color: cornflowerblue;
+}
+
+
+/* Dimensiones: Ejercicio 4 */
+
+#dimEjercicio4 {
+    width: 200px;
+}
+
+#dimEuadrado {
+    width: 50%;
+    height: calc(200px * 0.5);
+    background-color: bisque;
+}
+
+
+/* Dimensiones: Ejercicio 5 */
+
+#dimEjercicio5 {
+    display: flex;
+    gap: 10px;
+}
+
+#dimEjercicio5 div {
+    height: 300px;
+}
+
+#dimEjercicio5 div:not(:first-child) {
+    flex: 1;
+    background-color: pink;
+}
+
+#dimEjercicio5 div:first-child {
+    width: 200px;
+    background-color: cadetblue
+}
+
+
+
+/* Em y Rem: Ejercicio 1 */
+
+#emEjercicio1 {
+    font-size: 16px;
+}
+
+#emEjercicio1 p:first-child {
+    font-size: 1.5em
+}
+
+#emEjercicio1 p:nth-child(2) {
+    font-size: 1.2em
+}
+
+#emEjercicio1 p:nth-child(3) {
+    font-size: 0.8em
+}
+
+
+/* Em y Rem: Ejercicio 2 */
+
+#emEjercicio2 div {
+    height: 100px;
+    background-color: pink;
+    margin-bottom: 10px;
+}
+
+#emEjercicio2 div:first-child {
+    width: 20rem;
+}
+
+#emEjercicio2 div:nth-child(2) {
+    width: 15rem;
+}
+
+#emEjercicio2 div:last-child {
+    width: 10rem;
+}
+
+
+
+/* Em y Rem: Ejercicio 3 */
+
+#emEjercicio3 li:first-child {
+    margin-left: 0.5em;
+}
+
+#emEjercicio3 li:nth-child(2) {
+    margin-left: 1em;
+}
+
+#emEjercicio3 li:last-child {
+    margin-left: 1.5em;
+}
+
+
+
+/* Colores: Ejercicio 1 */
+
+#colEjercicio1 {
+    background-color: deepskyblue;
+}
+
+
+
+/* Colores: Ejercicio 2 */
+
+#colEjercicio2 div {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+#colEjercicio2 div:first-child {
+    background-color: #babaff;
+}
+#colEjercicio2 div:nth-child(2) {
+    background-color: #ffccba;
+}
+#colEjercicio2 div:last-child {
+    background-color: #b4e2ae;
+}
+
+
+
+/* Colores: Ejercicio 3 */
+
+#colEjercicio3 {
+    background-color: rgb(235, 110, 110);
+}
+
+
+
+/* Colores: Ejercicio 4 */
+
+#colEjercicio4 div {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 10px;
+}
+#colEjercicio4 div:first-child {
+    background-color: hsl(295, 45%, 75%);
+}
+#colEjercicio4 div:last-child {
+    background-color: hsl(210, 80%, 70%);;
+}
+
